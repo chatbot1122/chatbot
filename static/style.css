@@ -1,0 +1,73 @@
+/* Setel properti latar belakang untuk body */
+body {
+    background-image: url("bg.jpg"); /* Atur gambar latar belakang */
+    background-color: rgba(0, 0, 0, 0.3); /* Atur warna latar belakang dengan sedikit transparansi */
+    background-blend-mode: multiply; /* Gabungkan gambar latar belakang dan warna */
+    font-family: 'Arial', sans-serif; /* Atur family font */
+    margin: 0; /* Hapus margin default */
+    color: #ffffff; /* Atur warna teks */
+    min-height: 100vh; /* Atur tinggi minimum untuk mengisi tampilan */
+    display: flex; /* Gunakan flexbox untuk tata letak */
+    align-items: center; /* Pusatkan item secara vertikal */
+    justify-content: center; /* Pusatkan item secara horizontal */
+}
+
+/* Style untuk heading utama (h1) */
+h1 {
+    margin-bottom: 150px; /*margin di bagian bawah h1 */
+}
+
+/* Style untuk heading sekunder (h2) */
+h2 {
+    color: #007bff; /* Atur warna teks untuk h2 */
+}
+
+/* Style untuk formulir dan kotak hasil */
+form, .result-box {
+    max-width: 400px; /* Atur lebar maksimum */
+    background-color: rgba(255, 255, 255, 0.8); /* Atur warna latar belakang untuk formulir dan kotak hasil dengan sedikit transparansi */
+    padding: 20px; /*padding */
+    border-radius: 10px; /*border-radius untuk sudut yang melengkung */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /*bayangan kotak untuk efek yang halus */
+}
+
+/* Style untuk label */
+label {
+    font-weight: bold; /* Atur font menjadi bold */
+    color: #495057; /* Atur warna teks untuk label */
+}
+
+/* Style untuk kolom input teks */
+input[type="text"] {
+    width: 100%; /* Atur lebar menjadi 100% */
+    padding: 10px; /*padding */
+    margin-bottom: 15px; /*margin di bagian bawah */
+    border: 1px solid #ced4da; /*Style border */
+    border-radius: 5px; /*border-radius untuk sudut yang melengkung */
+}
+
+/* Style untuk tombol */
+button {
+    background-color: #007bff; /* Atur warna latar belakang untuk tombol */
+    color: #ffffff; /* Atur warna teks untuk tombol */
+    padding: 10px 20px; /*padding */
+    border: none; /* Hapus border */
+    border-radius: 5px; /*border-radius untuk sudut yang melengkung */
+    cursor: pointer; /* Atur kursor menjadi pointer saat dihover */
+}
+
+/* Style untuk keadaan hover tombol */
+button:hover {
+    background-color: #0056b3; /* Ubah warna latar belakang saat dihover */
+}
+
+/* Style untuk paragraf */
+p {
+    margin-top: 20px; /*margin di bagian atas paragraf */
+    color: #28a745; /* Atur warna teks untuk paragraf */
+}
+
+/* Style untuk kelas tertentu 'sentence' */
+.sentence {
+    color: #007bff; /* Atur warna teks untuk elemen dengan kelas 'sentence' */
+}
